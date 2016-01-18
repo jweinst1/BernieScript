@@ -92,6 +92,9 @@ var Transpiler = (function () {
     Transpiler.transpile = function (input) {
         input = input.replace(/plus/g, "+");
         input = input.replace(/minus/g, "-");
+        input = input.replace(/tax/g, "%");
+        input = input.replace(/income equality/g, "==");
+        input = input.replace(/pays no taxes/g, ">");
         input = input.replace(/here's the story/g, "def");
         input = input.replace(/give to the people/g, "return");
         input = input.replace(/to each citizen named/g, "for");
@@ -101,6 +104,8 @@ var Transpiler = (function () {
         input = input.replace(/when bernie gets elected/g, "if");
         input = input.replace(/when you feel the bern/g, "elseif");
         input = input.replace(/otherwise/g, "else");
+        input = input.replace(/bernie says/g, "print");
+        input = input.replace(/let me be clear/g, "assert");
         input = input.replace(/long as wallstreet runs congress/g, "while");
         input = input.replace(/the one percent/g, "class");
         input = input.replace(/list/g, "corporation");
@@ -113,5 +118,5 @@ var Transpiler = (function () {
     };
     return Transpiler;
 })();
-console.log(Transpiler.transpile("bernie says pow(num):\n\tvote sounds like bernie"));
+console.log(Transpiler.transpile("bernie says pow(num):\n\tgive to the people 5 plus 6 minus 5 tax 3"));
 //# sourceMappingURL=Transcompiler.js.map

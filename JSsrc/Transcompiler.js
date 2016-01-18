@@ -86,15 +86,20 @@ var Conversion = (function () {
     };
     return Conversion;
 })();
+//transpiler replacement function
 var Transpiler = (function () {
     function Transpiler() {
     }
     Transpiler.transpile = function (input) {
+        input = input.replace(/fairgame/g, "+=");
         input = input.replace(/plus/g, "+");
         input = input.replace(/minus/g, "-");
+        input = input.replace(/multiply/g, "*");
         input = input.replace(/tax/g, "%");
+        input = input.replace(/fairshare/g, "/");
         input = input.replace(/income equality/g, "==");
-        input = input.replace(/pays no taxes/g, ">");
+        input = input.replace(/too much money/g, ">");
+        input = input.replace(/voting as/g, "=");
         input = input.replace(/here's the story/g, "def");
         input = input.replace(/give to the people/g, "return");
         input = input.replace(/to each citizen named/g, "for");

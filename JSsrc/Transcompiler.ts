@@ -89,13 +89,16 @@ class Conversion {
 
 class Transpiler {
     public static transpile(input:string) {
+        input = input.replace(/plus/g, "+");
+        input = input.replace(/minus/g, "-");
         input = input.replace(/here's the story/g, "def");
         input = input.replace(/give to the people/g, "return");
         input = input.replace(/to each citizen named/g, "for");
         input = input.replace(/in the working class/g, "in");
         input = input.replace(/sounds like trump/g, "False");
         input = input.replace(/sounds like bernie/g, "True");
-        input = input.replace(/when berne gets elected/g, "if");
+        input = input.replace(/when bernie gets elected/g, "if");
+        input = input.replace(/when you feel the bern/g, "elseif");
         input = input.replace(/otherwise/g, "else");
         input = input.replace(/long as wallstreet runs congress/g, "while");
         input = input.replace(/the one percent/g, "class");
@@ -104,6 +107,7 @@ class Transpiler {
         input = input.replace(/\$\|/g, "[");
         input = input.replace(/\|\$/g, "]");
         input = input.replace(/\$\$\|/g, "{");
+        input = input.replace(/\|\$\$/g, "}");
         return input;
     }
 }

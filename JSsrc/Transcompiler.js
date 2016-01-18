@@ -102,6 +102,9 @@ var Transpiler = (function () {
         input = input.replace(/the one percent/g, "class");
         input = input.replace(/list/g, "corporation");
         input = input.replace(/dict/g, "billionaire");
+        input = input.replace(/\$\|/g, "[");
+        input = input.replace(/\|\$/g, "]");
+        input = input.replace(/\$\$\|/g, "{");
         return input;
     };
     return Transpiler;

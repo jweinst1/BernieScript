@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2dabde0-b482-44ab-8d6d-1b5466aeb48d" name="Default" comment="" />
+    <list default="true" id="f2dabde0-b482-44ab-8d6d-1b5466aeb48d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSsrc/Transcompiler.js" afterPath="$PROJECT_DIR$/JSsrc/Transcompiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSsrc/Transcompiler.js.map" afterPath="$PROJECT_DIR$/JSsrc/Transcompiler.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSsrc/Transcompiler.ts" afterPath="$PROJECT_DIR$/JSsrc/Transcompiler.ts" />
+    </list>
     <ignored path="BernieScript.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +40,8 @@
       <file leaf-file-name="Transcompiler.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JSsrc/Transcompiler.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6103896">
-              <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.76623374">
+              <caret line="102" column="51" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc;n#Utils#0" expanded="false" />
               </folding>
@@ -59,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/JSsrc/Transcompiler.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="96" column="45" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
+              <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -75,14 +79,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/JSsrc/TransCompiler.ts" />
         <option value="$PROJECT_DIR$/JSsrc/Basictoken.js" />
         <option value="$PROJECT_DIR$/JSsrc/Transcompiler.js" />
-        <option value="$PROJECT_DIR$/JSsrc/Transcompiler.ts" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/JSsrc/Transcompiler.ts" />
       </list>
     </option>
   </component>
@@ -97,7 +104,7 @@
     <option name="width" value="1206" />
     <option name="height" value="685" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -334,7 +341,7 @@
     <entry file="file://$PROJECT_DIR$/JSsrc/Transcompiler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="45" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
+          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -359,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSsrc/Transcompiler.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6103896">
-          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.76623374">
+          <caret line="102" column="51" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
           <folding>
             <element signature="n#!!doc;n#Utils#0" expanded="false" />
           </folding>

@@ -96,6 +96,11 @@ class Transpiler {
         input = input.replace(/sounds like trump/g, "False");
         input = input.replace(/sounds like bernie/g, "True");
         input = input.replace(/when berne gets elected/g, "if");
+        input = input.replace(/otherwise/g, "else");
+        input = input.replace(/long as wallstreet runs congress/g, "while");
+        input = input.replace(/the one percent/g, "class");
+        input = input.replace(/list/g, "corporation");
+        input = input.replace(/dict/g, "billionaire");
         return input;
     }
 }

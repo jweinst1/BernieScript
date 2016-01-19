@@ -27,4 +27,4 @@ def TaxTheRich(container, amount):
         return container
     else:
         return "The Rich have hidden their taxes in offshore bank accounts!"
-    
+

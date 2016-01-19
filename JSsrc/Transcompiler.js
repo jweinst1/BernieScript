@@ -98,7 +98,9 @@ var Transpiler = (function () {
         input = input.replace(/tax/g, "%");
         input = input.replace(/fairshare/g, "/");
         input = input.replace(/income equality/g, "==");
+        input = input.replace(/income inequality/g, "!=");
         input = input.replace(/too much money/g, ">");
+        input = input.replace(/below the poverty line/g, "<");
         input = input.replace(/voting as/g, "=");
         input = input.replace(/here's the story/g, "def");
         input = input.replace(/give to the people/g, "return");
@@ -120,6 +122,14 @@ var Transpiler = (function () {
         input = input.replace(/\$\$\|/g, "{");
         input = input.replace(/\|\$\$/g, "}");
         return input;
+    };
+    //implements special functions for BernieScript
+    Transpiler.appendspecial = function (input) {
+        if (input.search(/LetsBeFair/g)) {
+            input += "\n";
+            input += "def LetsBeFair(num1, num2):\n    if num1 > num2:\n        diff = num1 - num2\n        num1 -= diff\n        num1 += diff/2\n        num2 += diff/2\n        return num1, num2\n    elif num1 < num2:\n        diff = num2 - num1\n        num2 -= diff\n        num1 += diff/2\n        num2 += diff/2\n        return num1, num2\n\n";
+            return input;
+        }
     };
     return Transpiler;
 })();

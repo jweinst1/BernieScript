@@ -56,7 +56,7 @@
 <form id="cal" action="fileName" method="post">
 
 <p><textarea rows="20" cols="50" name="textarea"></textarea></p>
-<p><a href="#" class="myButton">Feel The Bern</a></p>
+<p><a href="#" class="myButton" onclick="compile()">Feel The Bern</a></p>
 
 <style>
   #cal .textInput, #cal textarea {
@@ -152,6 +152,62 @@
 }
 </style>
 </form>
+<script>
+	var Transpiler = (function () {
+    function Transpiler() {
+    }
+    Transpiler.transpile = function (input) {
+        input = input.replace(/fairgame/g, "+=");
+        input = input.replace(/plus/g, "+");
+        input = input.replace(/minus/g, "-");
+        input = input.replace(/multiply/g, "*");
+        input = input.replace(/tax/g, "%");
+        input = input.replace(/fairshare/g, "/");
+        input = input.replace(/income equality/g, "==");
+        input = input.replace(/income inequality/g, "!=");
+        input = input.replace(/too much money/g, ">");
+        input = input.replace(/below the poverty line/g, "<");
+        input = input.replace(/voting as/g, "=");
+        input = input.replace(/here's the story/g, "def");
+        input = input.replace(/give to the people/g, "return");
+        input = input.replace(/to each citizen named/g, "for");
+        input = input.replace(/in the working class/g, "in");
+        input = input.replace(/sounds like trump/g, "False");
+        input = input.replace(/sounds like bernie/g, "True");
+        input = input.replace(/when bernie gets elected/g, "if");
+        input = input.replace(/when you feel the bern/g, "elseif");
+        input = input.replace(/otherwise/g, "else");
+        input = input.replace(/bernie says/g, "print");
+        input = input.replace(/let me be clear/g, "assert");
+        input = input.replace(/long as wallstreet runs congress/g, "while");
+        input = input.replace(/the one percent/g, "class");
+        input = input.replace(/list/g, "corporation");
+        input = input.replace(/dict/g, "billionaire");
+        input = input.replace(/\$\|/g, "[");
+        input = input.replace(/\|\$/g, "]");
+        input = input.replace(/\$\$\|/g, "{");
+        input = input.replace(/\|\$\$/g, "}");
+        return input;
+    };
+    //implements special functions for BernieScript
+    Transpiler.appendspecial = function (input) {
+        if (input.search(/LetsBeFair/g)) {
+            input += "\n";
+            input += "def LetsBeFair(num1, num2):\n    if num1 > num2:\n        diff = num1 - num2\n        num1 -= diff\n        num1 += diff/2\n        num2 += diff/2\n        return num1, num2\n    elif num1 < num2:\n        diff = num2 - num1\n        num2 -= diff\n        num1 += diff/2\n        num2 += diff/2\n        return num1, num2\n\n";
+            return input;
+        }
+    };
+    //transpiles python back
+    Transpiler.pythontoBS = function (input) {
+    };
+    return Transpiler;
+})();
+function compile() {
+	var inputted = document.getElementById("cal").value;
+	var processed = Transpiler.transpile(inputted)
+	document.getElementById("cal").value = processed;
+}
+</script>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/jweinst1">jweinst1</a></p>

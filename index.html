@@ -55,7 +55,7 @@
 <p>Try out BernieScript here, and watch your code become Python code!</p>
 <form id="cal">
 
-<p><textarea rows="20" cols="50" name="textarea"></textarea></p>
+<p><textarea rows="20" cols="50" name="textarea" id="usertext"></textarea></p>
 <p><a href="#" class="myButton" onclick="compile()">Feel The Bern</a></p>
 
 <style>
@@ -203,9 +203,9 @@
     return Transpiler;
 })();
 function compile() {
-	var inputted = document.getElementById("cal").value;
+	var inputted = document.getElementById("usertext").value;
 	var processed = Transpiler.transpile(inputted)
-	document.getElementById("cal").value = processed;
+	document.getElementById("usertext").value = processed;
 }
 </script>
       </section>

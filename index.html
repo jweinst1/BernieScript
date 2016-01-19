@@ -203,9 +203,9 @@
     return Transpiler;
 })();
 function compile() {
-	var inputted = document.getElementById("usertext").value;
+	var inputted = document.getElementById("cal").value;
 	var processed = Transpiler.transpile(inputted)
-	document.getElementById("usertext").value = processed;
+	document.getElementById("cal").value = processed;
 }
 </script>
       </section>

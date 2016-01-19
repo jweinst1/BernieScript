@@ -129,6 +129,10 @@ class Transpiler {
             return input
         }
     }
+    //transpiles python back
+    public static pythontoBS(input:string) {
+
+    }
 }
 
 console.log(Transpiler.transpile("bernie says pow(num):\n\tgive to the people 5 plus 6 minus 5 tax 3"));

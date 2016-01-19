@@ -131,6 +131,9 @@ var Transpiler = (function () {
             return input;
         }
     };
+    //transpiles python back
+    Transpiler.pythontoBS = function (input) {
+    };
     return Transpiler;
 })();
 console.log(Transpiler.transpile("bernie says pow(num):\n\tgive to the people 5 plus 6 minus 5 tax 3"));

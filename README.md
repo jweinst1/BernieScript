@@ -3,6 +3,7 @@
 BernieScript is an fun, easy to use, programming language based around Bernie Sanders and his personality, campaign focus, and speeches. BernieScript was developed with the idea of learning to code in funny, yet educational and inspirational way.
 
 [Playground and Website](http://jweinst1.github.io/BernieScript)
+[NPM Page](https://www.npmjs.com/package/berniescript)
 
 ###Transcompilation
 

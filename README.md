@@ -191,6 +191,6 @@ Here are some example functions written in bernie script, and their equivalent p
 >>>    current = 0
 >>>    while current < n:
 >>>       current += current + 1
->>>    reutnr current
+>>>    return current
 >>>
 ```

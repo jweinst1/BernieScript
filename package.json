@@ -1,0 +1,19 @@
+{
+  "name": "berniescript",
+  "version": "1.0.0",
+  "description": "A programming language based on Bernie Sanders and his campaign",
+  "main": "JSsrc/Transcompiler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jweinst1/BernieScript.git"
+  },
+  "author": "Joshua Weinstein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jweinst1/BernieScript/issues"
+  },
+  "homepage": "https://github.com/jweinst1/BernieScript#readme"
+}

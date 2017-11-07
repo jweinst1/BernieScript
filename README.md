@@ -1,39 +1,39 @@
-#BernieScript
+# BernieScript
 
 BernieScript is an fun, easy to use, programming language based around Bernie Sanders and his personality, campaign focus, and speeches. BernieScript was developed with the idea of learning to code in funny, yet educational and inspirational way.
 
 [Playground and Website](http://jweinst1.github.io/BernieScript)
 [NPM Page](https://www.npmjs.com/package/berniescript)
 
-###Transcompilation
+### Transcompilation
 
 BernieScript transcompiles to Python code, and can then be executed via a Python Interpreter.
 
-##PlayGround
+## PlayGround
 
 Try out BernieScript here, and watch your code become Python code!
 
-##Guide
+## Guide
 
-###Phrases
+### Phrases
 
 BernieScript uses a special type of keyword called phrases, which are multiple words treated as a single keyword. This compounds the meaning of groups of words into one. For example, when a function is defined in BernieScript, we use the phrase `here's the story`, followed by the function name and paramters. However, the words `the story` or `here's` have no individual meaning or use, and will raise an error.
 
-####Numbers
+#### Numbers
 
 In order to convey the accurate, most understandable information to the people, we need simplicity. Therefore, BernieScript only uses integers as numerical values. We don't do doubles, floats, binary numbers, or any of that stuff. Just like how the tax code is full of loopholes for billionaires and is totally incomprehensible to the average citizen, we believe coding should be a straight forward learning process.
 
-####Booleans
+#### Booleans
 
 Instead of using the traditional `True` or `False` values, the language uses more descriptive and accurate terms, related to people who speak the truth, and those who don't. A value that is true is represented as `sounds like bernie`, and a value that is false is represented as `sounds like trump`.
 
-####Variables
+#### Variables
 
 In BernieScript, it's important to understand the importance of one's vote, and that every vote counts. Therefore, when you want to include a variable, we declare a variable by using the phrase `voting as`. So `x voting as 5` means the value of 5 is referenced by x. This is transcompiled to `x = 5`.
 
 You can also do multiple assignment variables, such as `x voting as y voting as z voting as 6`, which assigns all of the variables to the value 6.
 
-####Arithmetic Operators
+#### Arithmetic Operators
 
 When your coding in BernieScript, it's very important to have a good coverage of your artihemtic operators, because proper math leads to everyone getting their faireshare, and prevents greedy corporations and people from obscuring how many is spent or avoiding taxes.
 
@@ -58,57 +58,57 @@ BernieScript has a special phrase, thats used for rebinding a variable and addin
 15
 ```
 
-####Comparison Operators
+#### Comparison Operators
 
 When your programming, it's important to be able to compare certain values to one another. However, we need to be clear on exactly what defines if those values are equal, and where they stand in terms of the people of this country. Each of these phrases specifcially identifies the key issues and disparity among values in your code.
 
-######`too much money`:
+###### `too much money`:
 
 When one wants to test if a value is greater than another value, you this the too much money phrase. For example, `6 too much money 7` returns `sounds like trump`, because it's false.
 
-######`below the poverty line`:
+###### `below the poverty line`:
 
 When one wants to test if a value is less than another value, we use the `below the poverty line` phrase, such as `5 below the poverty line 100` returns `sounds like bernie`, since it's true.
 
-######`income equality`:
+###### `income equality`:
 
 Too make sure two values are equal, and especcially equal in their income, we use the `income equality` phrase. for example, `7 income equality 3` returns `sounds like trump`, because those two values are not equal.
 
-######`income inequality`:
+###### `income inequality`:
 
 Conversely, the opposite of equality is inequality, so you use the phrase `income inequality` to test if two values are unequal.
 
-###Data Structures
+### Data Structures
 
 BernieScript has two distinct data structures, the `corporation` and `billionaire`. These are important, because they allow you to store values and access them in useful ways, but they also represent the upper class who can easily give and take values and objects as they please.
 
-####Corporation:
+#### Corporation:
 
 A `corporation` is an ordered collection of elements. It is initialized and represented by special brackets, `$| |$`. For example, one can initialize a `corporation` function in two ways, by saying `lst voting as $|5, 3, 3|$`, or using the corporation function, `lst voting as corporation(3, 4, 4)`.
 
 Corporations have several built in methods, that allow them to control and dominate the computer program, by taking and removing values as they please:
 
-######`.append()`:
+###### `.append()`:
 
 The append method adds a new value at the end of a corporation, so `$|5, 4, 4|$.append(5)` becomes `$|5, 4, 4, 5|$`.
 
-######`.pop()`:
+###### `.pop()`:
 
 The pop method removes and returns the last value of the corporation. It can also take a value as a parameter, and will remove and return the first occurence of the value.
 
-######`.remove(val)`:
+###### `.remove(val)`:
 
 The remove method of the corporation removes the first occurence of the given paramter `val`. It does not return the value.
 
-######`.extend(corp)`:
+###### `.extend(corp)`:
 
 Extends one corporation by another, merge their values together in sequential order. `$|2, 3|$.extend($|4, 4, 4|$)` becomes `$|2, 3, 4, 4, 4|$`
 
-######`.index(num))`:
+###### `.index(num))`:
 
 The index method gets the value at the `num` index of the corporation. It is non-destructive, and does not remove any values from it.
 
-####Billionaire:
+#### Billionaire:
 
 A `billionaire` is one step up from the abilities of a `corporation`. Instead of ordering their stored values with numbers and indexes, billionaires by pass those rules completely. Instead, they can just put values any where they want them. They have all the power. They can even give values indexs that aren't even numbers! They are represented by the even richer brackets, `$$| |$$`
 
@@ -125,7 +125,7 @@ $$|5:3|$$
 
 As you can see here, `TheKochBrothers` and other billionaires don't abide by the rules of ordering like a `corporation` does, so it can store values in more complex and unfair ways.
 
-####Loops
+#### Loops
 
 BernieScript has two distinct phrases for loops. One is similar to a for loop, while another is similar to a while loop. Here are the formats
 
@@ -144,7 +144,7 @@ Here, `give to the people` returns the variable total. This is a basic procedure
 
 If you want to use a while loop, you use the phrase `long as wallstreet runs congress <condition>:` and then the series of commands you want to execute while the condition evaluates to true, or rather `sounds like bernie`.
 
-####Control Structures
+#### Control Structures
 
 BernieScript has three distinct control structures, for determining the direction ina function or program.
 
@@ -154,12 +154,12 @@ BernieScript has three distinct control structures, for determining the directio
 
 `otherwise`: is the else statement of BernieScript, it is the default path for any case in which the elected or `when you feel the bern` statements sound like trump.
 
-####Functions
+#### Functions
 
 To define a function in BernieScript, you use a special phrase called `here's the story`, followed by the function name and the paramters. For example, `here's the story addto(num, val):` declares a function named `addto`, with the parameters `num` and `val`.
 
 
-####Example Usage:
+#### Example Usage:
 
 Here are some example functions written in bernie script, and their equivalent python code.
 

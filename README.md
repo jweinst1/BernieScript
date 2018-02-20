@@ -17,7 +17,7 @@ Try out BernieScript here, and watch your code become Python code!
 
 ### Phrases
 
-BernieScript uses a special type of keyword called phrases, which are multiple words treated as a single keyword. This compounds the meaning of groups of words into one. For example, when a function is defined in BernieScript, we use the phrase `here's the story`, followed by the function name and paramters. However, the words `the story` or `here's` have no individual meaning or use, and will raise an error.
+BernieScript uses a special type of keyword called phrases, which are multiple words treated as a single keyword. This compounds the meaning of groups of words into one. For example, when a function is defined in BernieScript, we use the phrase `here's the story`, followed by the function name and parameters. However, the words `the story` or `here's` have no individual meaning or use, and will raise an error.
 
 #### Numbers
 
@@ -35,7 +35,7 @@ You can also do multiple assignment variables, such as `x voting as y voting as 
 
 #### Arithmetic Operators
 
-When your coding in BernieScript, it's very important to have a good coverage of your artihemtic operators, because proper math leads to everyone getting their faireshare, and prevents greedy corporations and people from obscuring how many is spent or avoiding taxes.
+When your coding in BernieScript, it's very important to have a good coverage of your arithmetic operators, because proper math leads to everyone getting their fairshare, and prevents greedy corporations and people from obscuring how many is spent or avoiding taxes.
 
 When you want to add something, you simply say `plus`, such as `5 plus 5`, which will return 10.
 
@@ -43,11 +43,11 @@ When you want to subtract two numbers, you type `minus`, such as coding `3 minus
 
 If you want to multiply something, just type multiply! As in `5 multiply 6 multiply 7`.
 
-Now, when we get to the concept of division, we have to be more cautious on our wording. All too often, things in society, namely the distribution of wealth is dividied unequally and unfairly. Therefore, when you want to divide something, you say `fairshare`, or as an example, `10 fairshare 5` will return 2.
+Now, when we get to the concept of division, we have to be more cautious on our wording. All too often, things in society, namely the distribution of wealth is divided unequally and unfairly. Therefore, when you want to divide something, you say `fairshare`, or as an example, `10 fairshare 5` will return 2.
 
 When you want to do modulo division, or get the remainder of division, we use the word `tax`, so `10 tax 4` returns 2.
 
-In Berniescript, there is no exponential operator. It's unfair for one number to increase so rapidly and disproportionately to the other numbers in a program, so to make it fair, we passed a bill to prevent that.
+In BernieScript, there is no exponential operator. It's unfair for one number to increase so rapidly and disproportionately to the other numbers in a program, so to make it fair, we passed a bill to prevent that.
 
 BernieScript has a special phrase, thats used for rebinding a variable and adding another number to it, called `fairgame`. Here is an example:
 
@@ -60,7 +60,7 @@ BernieScript has a special phrase, thats used for rebinding a variable and addin
 
 #### Comparison Operators
 
-When your programming, it's important to be able to compare certain values to one another. However, we need to be clear on exactly what defines if those values are equal, and where they stand in terms of the people of this country. Each of these phrases specifcially identifies the key issues and disparity among values in your code.
+When your programming, it's important to be able to compare certain values to one another. However, we need to be clear on exactly what defines if those values are equal, and where they stand in terms of the people of this country. Each of these phrases specifically identifies the key issues and disparity among values in your code.
 
 ###### `too much money`:
 
@@ -72,7 +72,7 @@ When one wants to test if a value is less than another value, we use the `below 
 
 ###### `income equality`:
 
-Too make sure two values are equal, and especcially equal in their income, we use the `income equality` phrase. for example, `7 income equality 3` returns `sounds like trump`, because those two values are not equal.
+Too make sure two values are equal, and especially equal in their income, we use the `income equality` phrase. for example, `7 income equality 3` returns `sounds like trump`, because those two values are not equal.
 
 ###### `income inequality`:
 
@@ -94,11 +94,11 @@ The append method adds a new value at the end of a corporation, so `$|5, 4, 4|$.
 
 ###### `.pop()`:
 
-The pop method removes and returns the last value of the corporation. It can also take a value as a parameter, and will remove and return the first occurence of the value.
+The pop method removes and returns the last value of the corporation. It can also take a value as a parameter, and will remove and return the first occurrence of the value.
 
 ###### `.remove(val)`:
 
-The remove method of the corporation removes the first occurence of the given paramter `val`. It does not return the value.
+The remove method of the corporation removes the first occurrence of the given parameter `val`. It does not return the value.
 
 ###### `.extend(corp)`:
 
@@ -110,7 +110,7 @@ The index method gets the value at the `num` index of the corporation. It is non
 
 #### Billionaire:
 
-A `billionaire` is one step up from the abilities of a `corporation`. Instead of ordering their stored values with numbers and indexes, billionaires by pass those rules completely. Instead, they can just put values any where they want them. They have all the power. They can even give values indexs that aren't even numbers! They are represented by the even richer brackets, `$$| |$$`
+A `billionaire` is one step up from the abilities of a `corporation`. Instead of ordering their stored values with numbers and indexes, billionaires by pass those rules completely. Instead, they can just put values any where they want them. They have all the power. They can even give values indexes that aren't even numbers! They are represented by the even richer brackets, `$$| |$$`
 
 For example, lets say we make a billionaire, by doing `TheKochBrothers voting as $$| |$$`, we assign a variable to an empty billionaire. Billionaires, work by hoarding and collecting key-value pairs. Lets see some examples below:
 
@@ -140,17 +140,17 @@ When you want to use a for loop, you use the phrase
 >>> give to the people total
 ```
 
-Here, `give to the people` returns the variable total. This is a basic procedure of iterating through a corporation, and summign it's values.
+Here, `give to the people` returns the variable total. This is a basic procedure of iterating through a corporation, and summing it's values.
 
-If you want to use a while loop, you use the phrase `long as wallstreet runs congress <condition>:` and then the series of commands you want to execute while the condition evaluates to true, or rather `sounds like bernie`.
+If you want to use a while loop, you use the phrase `long as Wallstreet runs congress <condition>:` and then the series of commands you want to execute while the condition evaluates to true, or rather `sounds like bernie`.
 
 #### Control Structures
 
-BernieScript has three distinct control structures, for determining the direction ina function or program.
+BernieScript has three distinct control structures, for determining the direction in a function or program.
 
-`when bernie gets elected` corresponds to a condition that if the following value `sounds like bernie`, than the conditions below that phrase are executed. If the value `sounds like trump`, then the statements below the phrase are 	NOT evaulated.
+`when bernie gets elected` corresponds to a condition that if the following value `sounds like bernie`, than the conditions below that phrase are executed. If the value `sounds like trump`, then the statements below the phrase are 	NOT evaluated.
 
-`when you feel the bern` is a repeated `when bernie gets elected` phrase in the same line of control structures. It's the same as elseif in python, and follows the same concept as the elected statement.
+`when you feel the bern` is a repeated `when bernie gets elected` phrase in the same line of control structures. It's the same as `elseif` in python, and follows the same concept as the elected statement.
 
 `otherwise`: is the else statement of BernieScript, it is the default path for any case in which the elected or `when you feel the bern` statements sound like trump.
 
@@ -161,7 +161,7 @@ To define a function in BernieScript, you use a special phrase called `here's th
 
 #### Example Usage:
 
-Here are some example functions written in bernie script, and their equivalent python code.
+Here are some example functions written in BernieScript, and their equivalent python code.
 
 ```
 
